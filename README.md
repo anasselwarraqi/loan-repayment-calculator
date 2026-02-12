@@ -31,9 +31,12 @@ Where $D_m$ is the payment for the $m$-th month.
 ---
 
 ## 📂 Project Structure
+The repository is organized as a standalone Python application for clear accessibility and distribution:
+
 ```text
 .
-├── loan_calculator.py      # Main application logic
-├── .gitignore              # Standard Python gitignore
+├── .gitignore              # Prevents tracking of .idea/, __pycache__, and .DS_Store
 ├── LICENSE                 # MIT License
-└── README.md               # Documentation
+├── README.md               # Project documentation and usage guide
+├── loan_calculator.py      # Main application script
+└── requirements.txt        # Project dependency list
