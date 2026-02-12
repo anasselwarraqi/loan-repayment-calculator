@@ -35,7 +35,7 @@ The repository is organized as a standalone Python application for clear accessi
 
 ```text
 .
-├── .gitignore              # Prevents tracking of .idea/, __pycache__, and .DS_Store
+├── .gitignore              # Prevents tracking of __pycache__
 ├── LICENSE                 # MIT License
 ├── README.md               # Project documentation and usage guide
 ├── loan_calculator.py      # Main application script
